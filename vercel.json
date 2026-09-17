@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/cron/check-domains?secret=YOUR_CRON_SECRET", "schedule": "0 6 * * *" },
+    { "path": "/api/cron/daily-report?secret=YOUR_CRON_SECRET", "schedule": "0 8 * * *" }
+  ]
+}
